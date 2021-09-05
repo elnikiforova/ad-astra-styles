@@ -1,0 +1,88 @@
+/*styles for contacts page*/
+
+body {
+    background: #FFFFFF;
+}
+
+header {
+    border-top: 1px solid #2C5797;
+    border-bottom: 1px solid #2C5797;
+}
+
+.nav-link {
+    color: #2C5797;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.page-title {
+    color: #2C5797;
+
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 64px;
+    line-height: 20px;
+    /* or 31% */
+    /*display: flex;*/
+    /*align-items: center;*/
+    letter-spacing: -0.02em;
+}
+
+.contacts_picture_big {
+    width: 100%;
+    height: auto;
+}
+
+.text-formatted > p {
+    color: #2C5797;
+
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    /* or 111% */
+    text-align: justify;
+    letter-spacing: -0.02em;
+}
+
+.field--name-field-co-worker {
+    display: flex;
+}
+
+.field--name-field-co-worker > div.field__item {
+    width: 14em;
+    height: auto;
+}
+
+img.co_worker_pic {
+    width: 14em;
+    height: auto;
+}
+
+.field--name-field-co-worker-info {
+    display: flex;
+}
+
+.field--name-field-co-worker-info > div.field__item {
+    width: 14em;
+    height: auto;
+}
+
+.field--name-field-co-worker-info > div.field__item > p {
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    /* or 111% */
+    letter-spacing: -0.02em;
+}
