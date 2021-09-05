@@ -1,1 +1,25 @@
 /* global styles for ad astra redesign */
+
+body {
+  background-color: #FFFFFF;
+}
+
+* {
+  color: #2C5797;
+}
+
+.page-title, .field-item {
+  color: #2C5797;
+}
+
+.text-formatted > p {
+  color: #2C5797;
+}
+
+.field--name-field-image {
+  max-width: 100%;
+}
+
+div.field-label {
+  color: #2C5797;
+}
